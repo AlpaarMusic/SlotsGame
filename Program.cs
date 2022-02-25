@@ -1,13 +1,13 @@
 ﻿int balance = 30;
 int cost = 10;
-int a = 1;
+int a = 0;
 Console.WriteLine("Добро пожаловать в слоты!");
 Console.WriteLine();
 Console.WriteLine("1. Играть: Space");
 Console.WriteLine("2. Баланс: B");
 Console.WriteLine("3. Выход: Esc");
 
-while (a == 1){
+while (a == 0){
 
     ConsoleKey playButton = Console.ReadKey().Key;
 
